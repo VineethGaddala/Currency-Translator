@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency translator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="outer_container">
+        <h2>Currency Converter</h2>
+        <form class="main-container">
+            <div class="input-block">
+                <p>Amount</p>
+                <label for="amount">
+                    <input type="text" placeholder="Enter the Amount">
+                </label>
+            </div>
+            <div class="exchange-block">
+                <div class="from-block selection">
+                    <p>From</p>
+                    <div class="country-selector">
+                        <img src="https://flagsapi.com/US/shiny/64.png">
+                        <select class="from" name="from" >
+                            <!-- <option value="USD">USD</option> -->
+                        </select>
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                <div class="to-block selection">
+                    <p>To</p>
+                    <div class="country-selector">
+                        <img src="https://flagsapi.com/IN/shiny/64.png">
+                        <select class="to" name="to" >
+                            <!-- <option value="INR">INR</option> -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="description-block">
+                <p>Exchange values are shown here</p>
+            </div>
+            <button>GET EXCHANGE</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="codes.js"></script> -->
+</body>
+</html>

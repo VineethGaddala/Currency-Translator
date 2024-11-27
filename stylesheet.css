@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+}
+
+.outer_container {
+    height: 60vmin;
+    width: 50vmin;
+    /* border: 1px solid #feeab5; */
+    border-radius: 0.5rem;
+    margin-top: 20vmin;
+    background-color: white;
+}
+h2 {
+    text-align: center;
+    margin: 40px 0 10px 0;
+    opacity: 0.8;
+}
+
+.main-container {
+    height: 70%;
+    width: 100%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.input-block p{
+    font-size: 1.35rem;
+    margin-bottom: 10px;
+}
+.input-block input{
+    height: 3rem;
+    width: 90%;
+    padding-left: 1%;
+    border: 0.5px solid rgba(157, 133, 236, 0.518);
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.exchange-block {
+    height: 5rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0 13px 0;
+}
+
+i{
+    margin-top: 1rem;
+}
+
+.selection {
+    font-size: 1rem;
+}
+
+.country-selector {
+    border: 0.5px solid rgba(157, 133, 236, 0.518);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 2.5rem;
+    width: 8rem;
+}
+
+select {
+    /* font-size: 0.8rem; */
+    border: none;
+    text-align: center;
+    width: 4rem;
+}
+
+.description-block p{
+    height: 2rem;
+    width: 90%;
+    text-align: center;
+    margin: 1.5rem 0 1.3rem 0;
+    font-size: 0.9rem;
+    font-size: 1.1rem;
+    color: black;
+}
+button {
+    padding: 1rem 30% 1rem 30%;
+    background-color: purple;
+    border: 0.5px solid rgba(157, 133, 236, 0.518);
+    align-content: center;
+}
